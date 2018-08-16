@@ -1,0 +1,5 @@
+1>Install XAMPP
+2>Set LocalHOst Ports to 8080
+3>Compile verify.c Using : gcc verify.c -o C:\xampp\cgi-bin\verify.cgi
+4>run serer in xampp
+5>open login.html
