@@ -1,0 +1,45 @@
+body{
+	background-image: url("./bg.jpeg") ;
+	height: 100%;
+	width : 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+	
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+	margin: 2px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+	width: 50%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:skyblue;
+    border-radius: 8px;
+}
+header{
+	background-color: skyblue;
+	border-radius: 20px; 
+}

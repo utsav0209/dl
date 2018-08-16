@@ -1,0 +1,179 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Default</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	.mh2  {
+		height: 110%;
+	}
+	.card-img-top {
+    	width: 100%;
+    	object-fit: cover;
+	}
+	.affix {
+      top: 20px;
+  	}
+  	.footer {
+	    position: fixed;
+	    left: 0;
+	    bottom: 0;
+	    width: 100%;
+	    background-color: #804000 ;
+	    color: white;
+	    text-align : center;
+	}
+
+	.footer  p {
+		color:white;
+	}
+	.nav-custom {
+ 		background-color: #804000;
+	}
+
+	.navbar li a {
+	 color: white;
+	 background-color: #804000;
+
+}
+
+	iframe{
+		padding: 1em;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: -100%;
+        transform: translate(-50%,0%);
+		allowfullscreen="allowfullscreen";
+
+		border-radius: 12px;
+		box-shadow: 4px 4px 14px #000;
+
+ 	}
+
+	</style>
+</head>
+<body background="wood.jpg">
+	<!--header-->
+
+	<nav class="navbar nav-custom" style="!important" >
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#"><img src="capture.PNG" alt="logo" width="50" height="30"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav" >
+	        <li class="active"><a href="#">Home</a></li>
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Page 1</a></li>
+	            <li><a href="#">Page 2</a></li>
+	            <li><a href="#">Page 3</a></li>
+	          </ul>
+	        </li>
+	        <li><a href="#">Link2</a></li>
+	    </ul>
+		<form class="navbar-form navbar-left" action="/action_page.php">
+		  <div class="input-group">
+		    <input type="text" class="form-control" placeholder="Search">
+		    <div class="input-group-btn">
+		      <button class="btn btn-default" type="submit">
+		        <i class="glyphicon glyphicon-search"></i>
+		      </button>
+		    </div>
+		  </div>
+		</form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+	      </ul>
+	    </div>
+	  </div>
+
+	</nav>
+	<div class="container-fluid">
+		<div class="row" style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+
+	    	<div class="col-sm-2 mh2" style="background-color:transparent;">
+	    		<br>
+	    		<nav >
+	    			<ul class="navbar nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+	        			<li><a href="#section1">Link 1</a></li>
+	       				<li><a href="#section2">Link 2</a></li>
+	       				<li><a href="#section3">Link 3</a></li>
+	     			</ul>
+	    		</nav>
+	   		</div>
+		<div class="col-sm-8 mh2" style="background-color:transparent;">
+
+			 <div class="row">
+			<div class="col-xs-4">
+			<div class="card" style="width: 18rem; border: 1px solid black; border-radius: 7px;">
+				<img class="card-img-top" src="img1.jpg" alt="Card image cap" style="border: 0px solid black; border-radius: 7px;">
+				<ul class="list-group list-group-flush">
+    				<li class="list-group-item">Name : 1</li>
+				    <li class="list-group-item">Author : <a href="#">a</a></li>
+				    <li class="list-group-item">About :</li>
+				</ul>
+				<div class="card-body">
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">Download</a>
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">View</a>
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">Info</a>
+				</div>
+			</div>
+			</div>
+			<div class="col-xs-4">
+			<div class="card c1" style="width: 18rem; border: 1px solid black; border-radius: 7px;">
+				<img class="card-img-top" src="img1.jpg" alt="Card image cap"  style="border: 0px solid black; border-radius: 7px;">
+				<ul class="list-group list-group-flush">
+    				<li class="list-group-item">Name : 2</li>
+				    <li class="list-group-item">Author : <a href="#">b</a></li>
+				    <li class="list-group-item">About :</li>
+				</ul>
+				<div class="card-body">
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">Download</a>
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">View</a>
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">Info</a>
+			</div>
+			</div>
+			</div>
+			<div class="col-xs-4">
+			<div class="card" style="width: 18rem; border: 1px solid black; border-radius: 7px; ">
+				<img class="card-img-top" src="img1.jpg" alt="Card image cap"  style="border: 0px solid black; border-radius: 7px;">
+				<ul class="list-group list-group-flush">
+    				<li class="list-group-item">Name : 3</li>
+				    <li class="list-group-item">Author : <a href="#">c</a></li>
+				    <li class="list-group-item">About :</li>
+				</ul>
+				<div class="card-body justify">
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">Download</a>
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">View</a>
+					&nbsp;&nbsp;
+					<a href="#" class="card-link">Info</a>
+				</div>
+			</div>
+			</div>
+		</div></div>
+			<div class="col-sm-2 mh2" style="background-color:transparent;color:white;">
+				<br>Ads or something else in this section .
+			</div>
+		</div>
+	</div>
+<div class="footer">
+  	<p style="margin-top:3px;"><a href="about_us.html" style="color:white;">About us</a></p>
+</div>
+</body>
+</html>
