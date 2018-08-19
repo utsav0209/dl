@@ -2,13 +2,17 @@
 <html>
 <head>
 	<title>LogIn</title>
+	<link rel="stylesheet" type="text/css" href="login_css.css">
 </head>
 <body>
 	<form action="http://localhost:8080/cgi-bin/verify.cgi" method="post">
-		<div>
-			UserName : <input type="text" name="uname"><br>
-			PassWord : <input type="Password" name="pass"><br>
-			<input type="submit" name="LogIn">
+		<div id="main">
+			<img src="../img_avatar.png" ><br>
+			<p align="left" ><b>Username:</b></p> 
+			<input type="text" name="uname"><br>
+			<p align="left" ><b>Password:</b></p>
+			<input type="Password" name="pass"><br><br>
+			<input  type="submit" name="LogIn" value="Log In">
 		</div>
 	</form>
 </body>
